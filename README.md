@@ -2,7 +2,7 @@
 
 A defect classification model trained with pre-existing bugs and defects on a telecomunications CRM software with microservice architecture
 
-## Tech
+## Model Specifications
 
 **Classifier:** Random Forest
 
@@ -14,7 +14,7 @@ A defect classification model trained with pre-existing bugs and defects on a te
 
 **Tokenizer:** Bart Tokenizer - Large
 
-## Model Specifications
+## Fine Tuning
 
 ```
 rf_classifier = RandomForestClassifier(
